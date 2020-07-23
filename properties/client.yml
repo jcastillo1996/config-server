@@ -1,0 +1,14 @@
+server:
+  port: 8020
+  
+spring:
+  data:
+    mongodb:
+      database: bdclients
+      uri: mongodb+srv://user_mongo:G1TFNZUPitWXoy8z@cluster0.7dn2n.mongodb.net/bdclients?retryWrites=true&w=majority
+      repositories:
+        type: auto
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8100/eureka/
