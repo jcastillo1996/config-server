@@ -12,3 +12,7 @@ springdoc:
     path: /swagger-ui-custom.html
 ##mongodb://localhost:27017
 ##mongodb+srv://user_mongo:<password>@cluster0.7dn2n.mongodb.net/<dbname>?retryWrites=true&w=majority
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
