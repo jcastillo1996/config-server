@@ -1,6 +1,8 @@
 server:
-  port: 8020
-  
+  port: 80
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
 spring:
   data:
     mongodb:
