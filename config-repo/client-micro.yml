@@ -1,8 +1,5 @@
 server:
-  port: 80
-springdoc:
-  swagger-ui:
-    path: /swagger-ui-custom.html
+  port: 8080
 spring:
   data:
     mongodb:
@@ -10,7 +7,7 @@ spring:
       uri: mongodb+srv://user_mongo:G1TFNZUPitWXoy8z@cluster0.7dn2n.mongodb.net/bdclients?retryWrites=true&w=majority
       repositories:
         type: auto
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8100/eureka/
+springdoc:
+  swagger-ui:
+    path: /swagger-ui-custom.html
+
