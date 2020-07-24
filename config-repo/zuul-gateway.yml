@@ -21,7 +21,3 @@ zuul:
       path: /micro-cred/**
       sensitive-headers:
       service-id: CREDIT-MICRO
-   acco:
-      path: /micro-acco
-   sensitive-headers:
-   service-id: micro-acco
