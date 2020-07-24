@@ -13,6 +13,10 @@ zuul:
       path: /micro-cli/**
       sensitive-headers:
       service-id: CLIENT-MICRO
+   acco:
+      path: /micro-account/**
+      sensitive-headers:
+      service-id: ACCOUNT-MICRO
    cred:
       path: /micro-cred/**
       sensitive-headers:
