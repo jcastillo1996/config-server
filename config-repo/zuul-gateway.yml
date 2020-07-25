@@ -21,3 +21,7 @@ zuul:
       path: /micro-cred/**
       sensitive-headers:
       service-id: CREDIT-MICRO
+   trans:
+      path: /micro-trans/**
+      sensitive-headers:
+      service-id: TRANSACCION-MICRO
