@@ -1,6 +1,7 @@
 test:
   prueba:
     url: http://192.168.0.101:8099/micro-cli/api_client
+    saludi: HOLA JOSE
 
 server:
   port: 8081
