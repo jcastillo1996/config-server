@@ -1,7 +1,6 @@
-variable:
-  ruta:
-    yml:
-      string: http://192.168.0.101:8099/micro-cli/api_client
+test:
+  prueba:
+    url: HOLATEST
 
 server:
   port: 8081
