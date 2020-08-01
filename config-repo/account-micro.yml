@@ -13,7 +13,7 @@ spring:
         type: auto
 springdoc:
   swagger-ui:
-    path: /swagger-ui.html
+    path: /micro-account/swagger-ui.html
 eureka:
   client:
     service-url:
