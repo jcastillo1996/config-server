@@ -1,7 +1,7 @@
 wclient:
   urls:
-    client: http://192.168.0.101:8099/micro-cli/api_client
-    type: http://192.168.0.101:8099/micro-cli/api_clientType
+    client: http://192.168.0.102:8099/micro-cli/api_client
+    type: http://192.168.0.102:8099/micro-cli/api_clientType
 server:
   port: 8081
 spring:
