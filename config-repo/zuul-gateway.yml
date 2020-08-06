@@ -14,13 +14,9 @@ zuul:
       sensitive-headers:
       service-id: CLIENT-MICRO
    acco:
-      path: /micro-account/**
+      path: /micro-product/**
       sensitive-headers:
-      service-id: ACCOUNT-MICRO
-   cred:
-      path: /micro-cred/**
-      sensitive-headers:
-      service-id: CREDIT-MICRO
+      service-id: PRODUCT-MICRO
    trans:
       path: /micro-trans/**
       sensitive-headers:
