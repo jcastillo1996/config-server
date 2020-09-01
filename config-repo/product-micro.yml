@@ -1,5 +1,6 @@
 wclient:
   urls:
+    clientv2: http://192.168.0.101:8080/api_client
     client: http://192.168.0.101:8099/micro-cli/api_client
     type: http://192.168.0.101:8099/micro-cli/api_clientType
 server:
